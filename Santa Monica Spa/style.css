@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.body{
+   min-height: 100vh;
+   background-image: linear-gradient(to right, #D9ED92, #B5E48C,#99D98C,#76C893,#52B69A,#34A0A4,#168AAD,#1A759F,#1E6091,#184E77);
+   font-family: 'Dancing Script', cursive;
+   font-size: xx-large;
+}
+
+.fundo{
+   position: absolute;
+   padding: 15% 10%;/*Eixo Y e X*/
+   padding-bottom: 28%;
+   background-color: #e7e3d5;
+   top: 8%;
+   right: 40%;
+   border-radius: 24px;
+   box-shadow:  20px 20px 70px #505d68,
+               -20px -20px 70px #505d68;
+}
+
+
+.lotus{
+   position: absolute;
+   top: 4%;
+   right: 25%;
+   background-image:#52b397;
+   width: 50%; 
+   height: 20%;
+}
+
+.welcome{
+   position:absolute;
+   font-size:300%;
+   top: 20%;
+   right: 12%;
+   font-weight: 1000;
+   background-image: linear-gradient(to right, rebeccapurple, steelblue, turquoise);
+   color: black;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.StaMonicaspa{
+   position:absolute;
+   font-size:100%;
+   top: 32%;
+   right: 18%;
+   color: #184E77;
+   font-weight: 1000;
+}
+
+.labelemail{
+   position: absolute;
+   right: 77%;
+   top: 38%;
+   color: #184e77;
+   font-size: large;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 1000;
+}
+
+.campoEmail{
+   position: absolute;
+   top: 41%;
+   right: 10.5%;
+   border-radius: 12px;
+   border: none;
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   padding: 1% 10%; /*Eixo Y e X*/
+}
+
+.labelpassword{
+   position: absolute;
+   right: 71%;
+   top: 46%;
+   color: #184e77;
+   font-size: large;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 1000;
+}
+
+.campoPassword{
+   position: absolute;
+   top: 49%;
+   right: 10.5%;
+   border-radius: 12px;
+   border: none;
+   font-size: 20px;
+   padding: 1% 10%; /*Eixo Y e X*/
+   font-family: 'Roboto', sans-serif;
+}
+
+
+
+.fgtpsd{
+   position: absolute;
+   right: 12%;
+   top: 53%;
+   color: #184E77;
+   font-size: small;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 1000;
+}
+
+.login{
+   position: absolute;
+   top: 57%;
+   right: 11%;
+   border-radius: 25px;
+   padding: 3% 33.5%;
+   background-image: linear-gradient(to right, rebeccapurple, steelblue, turquoise);
+   color: #ffffff;
+   font-weight: 1000;
+   font-size: large;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 1000;
+}
+
+.or{
+
+   position: absolute;
+   top: 63.1%;
+   right: 47%;
+   color: #34A0A4;
+   font-size: large;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 1000;
+   text-decoration: none;
+}
+
+#logofacebook{
+   position: absolute;
+   top: 14%;
+   right: 83%;
+}
+
+.enterface{
+   position: absolute;
+   top: 66%;
+   right: 11%;
+   border-radius: 25px;
+   padding: 3% 18%;
+   border: none;
+   background-color: #184E77;
+   color: #ffffff;
+   font-weight: 1000;
+   font-size: large;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 1000;
+}
+
+#logogoogle{
+   position: absolute;
+   top: 17%;
+   right: 84%;
+}
+
+.entergoogle{
+   position: absolute;
+   top: 74%;
+   right: 11%;
+   border-radius: 25px;
+   padding: 3% 20.5%;
+   border: none;
+   background-color: #184E77;
+   color: #ffffff;
+   font-weight: 1000;
+   font-size: large;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 1000;
+}
+
+
+
+.termos{
+   position: absolute;
+   top: 78%;
+   right: 43.4%;
+   font-size: small;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   color: #184E77;
+   line-height:120%;
+   font-weight: 1000;
+}
+
+.terms {
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   font-weight: 1000;
+   color: #34A0A4;
+}
+
+.privPol {
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   font-weight: 1000;
+   color: #34A0A4;
+}
+
+.SignUp{
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   font-weight: 1000;
+   color: #34A0A4;
+}
+
+.here{
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   font-weight: 1000;
+   color: #34A0A4;
+}
+
